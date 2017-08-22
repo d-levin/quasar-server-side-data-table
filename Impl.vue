@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import Page from './Page'
+import Page from './models/Page'
 import ServerSideDataTable from './ServerSideDataTable'
 
 export default {
