@@ -79,9 +79,8 @@ export default {
 
     internalPageSizeOptions () {
       return this.pageSizeOptions.map(option => {
-        const str = option.toString()
         return {
-          label: str,
+          label: option.toString(),
           value: option
         }
       })
